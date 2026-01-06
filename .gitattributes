@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Force LF for web files
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+
+# Force LF for scripts (VERY IMPORTANT)
+*.sh   text eol=lf
+
+# Windows scripts
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
