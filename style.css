@@ -234,6 +234,62 @@ footer {
     letter-spacing: 1px;
 }
 
+/* Price Table */
+.price-table-container {
+    margin: 60px 0;
+    overflow-x: auto;
+}
+
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.price-table thead {
+    background: #4A5D45;
+    color: white;
+}
+
+.price-table th,
+.price-table td {
+    padding: 20px;
+    text-align: left;
+}
+
+.price-table th {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.price-table tbody tr {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.price-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.price-table tbody tr:hover {
+    background: #F9F7F2;
+}
+
+.price-table td {
+    color: #2C2C2C;
+}
+
+.price-table td:last-child {
+    font-weight: 600;
+    color: #4A5D45;
+    font-size: 1.1rem;
+}
+
 
 /* Responsive for mobile */
 @media (max-width: 768px) {
