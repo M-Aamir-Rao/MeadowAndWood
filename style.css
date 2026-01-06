@@ -197,6 +197,44 @@ footer {
     margin-top: 40px;
 }
 
+/* Team Section */
+.team-section {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.team-section h2 {
+    margin-bottom: 40px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.team-member {
+    padding: 30px 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.team-member h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    color: #8C7C6D;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
 /* Responsive for mobile */
 @media (max-width: 768px) {
     .hero,
