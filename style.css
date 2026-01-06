@@ -151,3 +151,67 @@ button:hover,
     border-radius: 8px;
     margin-bottom: 15px;
 }
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card button {
+    background: transparent;
+    border: 1px solid #4A5D45;
+    color: #4A5D45;
+    margin-top: 10px;
+}
+
+.card button:hover {
+    background: #4A5D45;
+    color: white;
+}
+
+/* Story Section */
+.story {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+
+.story p {
+    font-size: 1.1rem;
+    color: #8C7C6D;
+    margin-bottom: 20px;
+}
+
+.story img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #8C7C6D;
+    border-top: 1px solid #E5E5E5;
+    margin-top: 40px;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .hero,
+    .story,
+    .grid {
+        flex-direction: column;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
